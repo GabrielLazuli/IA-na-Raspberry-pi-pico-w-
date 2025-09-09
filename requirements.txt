@@ -1,0 +1,19 @@
+# MicroPython Libraries Required for Raspberry Pi Pico W
+# These libraries should be available in standard MicroPython installation
+
+# Core libraries (built-in)
+network      # WiFi connectivity
+time         # Time functions
+machine      # Hardware control (Pin, reset)
+gc           # Garbage collection
+json         # JSON parsing
+
+# Additional library needed:
+# urequests   # HTTP requests library
+# If not available, install with: import upip; upip.install('urequests')
+
+# Standard Python libraries used:
+sys          # System functions (for exception handling)
+
+# Note: Most of these are built into MicroPython for Pico W
+# Only urequests might need to be installed separately
